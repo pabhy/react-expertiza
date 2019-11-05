@@ -1,4 +1,5 @@
 Expertiza::Application.routes.draw do
+  get 'expertiza', to: 'expertiza#index'
   ###
   # Please insert new routes alphabetically!
   ###

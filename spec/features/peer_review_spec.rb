@@ -51,7 +51,7 @@ describe "peer review testing" do
     load_questionnaire
 
     # Fill in a textbox and a dropdown
-    fill_in "responses[0][comment]", with: "HelloWorld"
+    fill_in "responses[0][comment]", with: "Expertiza"
     select 5, from: "responses[0][score]"
     click_button "Submit Review"
     expect(page).to have_content "Your response was successfully saved."
