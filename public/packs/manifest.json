@@ -1,8 +1,15 @@
 {
-  "application.js": "/packs/application-c7d6d98875f40e0cfb6e.js",
-  "application.js.map": "/packs/application-c7d6d98875f40e0cfb6e.js.map",
-  "expertiza-bundle.js": "/packs/expertiza-bundle-33f7ac96d3a326dc4635.js",
-  "expertiza-bundle.js.map": "/packs/expertiza-bundle-33f7ac96d3a326dc4635.js.map",
-  "hello_react.js": "/packs/hello_react-2d84019605336d2c0407.js",
-  "hello_react.js.map": "/packs/hello_react-2d84019605336d2c0407.js.map"
+  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.eot": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-674f50d287a8c48dc19ba404d20fe713.eot",
+  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-912ec66d7572ff821749319396470bde.svg",
+  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-b06871f281fee6b241d60582ae9369b9.ttf",
+  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2",
+  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-fee66e712a8a08eef5805a46892932ad.woff",
+  "application.js": "/packs/application-a6fecf15d4e4d9ca69e7.js",
+  "application.js.map": "/packs/application-a6fecf15d4e4d9ca69e7.js.map",
+  "expertiza-bundle.css": "/packs/expertiza-bundle-257e1dbaafb98793f6e9a2811b83ba0e.css",
+  "expertiza-bundle.css.map": "/packs/expertiza-bundle-257e1dbaafb98793f6e9a2811b83ba0e.css.map",
+  "expertiza-bundle.js": "/packs/expertiza-bundle-f7ef4d43310919e7d745.js",
+  "expertiza-bundle.js.map": "/packs/expertiza-bundle-f7ef4d43310919e7d745.js.map",
+  "hello_react.js": "/packs/hello_react-5f6e017b8b67f9cc3a94.js",
+  "hello_react.js.map": "/packs/hello_react-5f6e017b8b67f9cc3a94.js.map"
 }
