@@ -1,6 +1,7 @@
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import React, { Component } from 'react';
+import logo from 'images/logo.png'
 
 
 export default class Header extends Component {
@@ -23,7 +24,7 @@ export default class Header extends Component {
             <div>
                 <Navbar dark expand="md">
                     <NavbarToggler onClick={this.toggleNav} />
-                    <NavbarBrand className="ml-0" href="/"><img src='../../assets/images/logo.png' height="65" width="143" alt='Expertiza' /></NavbarBrand>
+                    <NavbarBrand className="ml-0" href="/"><img src={logo} height="65" width="143" alt='Expertiza' /></NavbarBrand>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>

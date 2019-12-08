@@ -475,7 +475,7 @@ resources :institution, except: [:destroy] do
     end
   end
 
-  root to: 'content_pages#view', page_name: 'home'
+  root to: 'expertiza#index', page_name: 'home'
   post :login, to: 'auth#login'
   post :logout, to: 'auth#logout'
   get 'auth/:provider/callback', to: 'auth#google_login'
