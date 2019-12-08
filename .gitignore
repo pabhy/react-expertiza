@@ -5,7 +5,6 @@ db/*.sql
 *.sql
 log/*.log
 tmp/**/*
-vendor/assets/components/
 docker-compose.yml
 coverage
 app/controllers/auth_controller.rb
