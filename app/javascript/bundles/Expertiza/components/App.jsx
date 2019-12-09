@@ -8,6 +8,11 @@ import { Provider } from 'react-redux';
 
 import Header from './Common/HeaderComponent';
 import Footer from './Common/FooterComponent';
+import Login from './Authentication/Login';
+import {ConfigureStore} from "../redux/configureStore";
+
+
+const store = ConfigureStore();
 
 export default class App extends React.Component {
 
@@ -25,13 +30,15 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-          <BrowserRouter>
-              <div  className="container-fluid">
-                <Header />
-                  <h2>Welcome to Expertiza</h2>
-                <Footer />
-              </div>
-          </BrowserRouter>
+          <Provider store = {store}>
+              <BrowserRouter>
+                  <div  className="container-fluid">
+                    <Header />
+                      <Login/>
+                    <Footer />
+                  </div>
+              </BrowserRouter>
+          </Provider>
       </div>
     );
   }
