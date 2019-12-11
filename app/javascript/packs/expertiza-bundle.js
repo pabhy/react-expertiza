@@ -1,7 +1,9 @@
 import ReactOnRails from 'react-on-rails';
 
 import App from '../bundles/Expertiza/App';
-import Main from '../bundles/Expertiza/components/MainComponent';
+import MainComponent from '../bundles/Expertiza/components/MainComponent';
+import StudentList from '../bundles/Expertiza/components/studentList/StudentList';
+import SignupSheet from '../bundles/Expertiza/components/SignupSheet';
 import Header from '../bundles/Expertiza/components/HeaderComponent';
 import Footer from '../bundles/Expertiza/components/FooterComponent';
 import Login from '../bundles/Expertiza/components/login/Login';
@@ -9,7 +11,7 @@ import PasswordForgotten from '../bundles/Expertiza/components/passwordForgotten
 import PasswordForgottenUpdate from '../bundles/Expertiza/components/passwordForgotten/passwordForgottenUpdate/PasswordForgottenUpdate'
 import Logout from '../bundles/Expertiza/components/logout/Logout'
 import StudentTaskView from '../bundles/Expertiza/components/studentTaskView/StudentTaskView'
-// import ProfileComponent from './ProfileComponent';
+import ProfileComponent from '../bundles/Expertiza/components/ProfileComponent';
 import StudentTeamComponent from '../bundles/Expertiza/components/studentTeamComponent/StudentTeamComponent'
 import ChangeHandleComponent from '../bundles/Expertiza/components/changeHandle/ChangeHandleComponent';
 import SignUpSheetComponent from '../bundles/Expertiza/components/signUpSheet/SignUpSheetComponent'
@@ -28,7 +30,7 @@ import Profile from '../bundles/Expertiza/components/ProfileComponent';
 // This is how react_on_rails can see the Expertiza in the browser.
 ReactOnRails.register({
     App,
-    Main,
+    MainComponent,
     Header,
     Footer,
     Login,
@@ -50,5 +52,6 @@ ReactOnRails.register({
     StudentReviewListComponent,
     SuggestionsComponent,
     responseViewComponent,
-    ResponseEditComponent
+    ResponseEditComponent,
+    ProfileComponent
 });

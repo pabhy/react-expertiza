@@ -18,14 +18,14 @@ import StudentTaskView from './studentTaskView/StudentTaskView'
 import StudentTeamComponent from './studentTeamComponent/StudentTeamComponent'
 import ChangeHandleComponent from './changeHandle/ChangeHandleComponent';
 import SignUpSheetComponent from './signUpSheet/SignUpSheetComponent'
-import SubmittedContentEditComponent from './submittedContentEdit/SubmittedContentEditComponent';
+// import SubmittedContentEditComponent from './submittedContentEdit/SubmittedContentEditComponent';
 import StudentQuizzesComponent from './studentQuizzes/StudentQuizzesComponent';
 import GradesViewTeamComponent from './gradesViewTeam/GradesViewTeamComponent';
 import GradesViewMyScores from './gradesViewMyScores/GradesViewMyScores';
 import StudentReviewListComponent from './studentReviewList/StudentReviewListComponent';
 import SuggestionsComponent from './suggestions/SuggestionsComponent';
-// import responseViewComponent from './responseView/responseViewComponent';
-// import ResponseEditComponent from './responseView/responseEdit/ResponseEditComponent';
+import responseViewComponent from './responseView/responseViewComponent';
+import ResponseEditComponent from './responseView/responseEdit/ResponseEditComponent';
 import StudentTaskUpload from './studentTaskUpload/StudentTaskUpload'
 
 
@@ -91,14 +91,14 @@ class Main extends Component {
                 <Route path ='/grades/view_my_scores/:id' component={(GradesViewMyScores)} />
                 <Route path ='/student_review/list/:id' component={(StudentReviewListComponent)} />
                 <Route path ='/suggestion/new/:id' component={(SuggestionsComponent)} />
-                {/*<Route path ='/response/view/:id' component={(responseViewComponent)} />*/}
-                {/*<Route path ='/response/edit/:id' component={(ResponseEditComponent)} />*/}
-                <Route path ='/password_retrieval/forgotten' component={PasswordForgotten} />
+                <Route path ='/response/view/:id' component={(responseViewComponent)} />
+                <Route path ='/response/edit/:id' component={(ResponseEditComponent)} />
+                <Route path ='/password_retrieval/forgot' component={PasswordForgotten} />
                 <Route path = '/password_edit/check_reset_url' component = {PasswordForgottenUpdate} />
                 <Route path ='/home'  component={(HomePage)} /> 
               {/* <Redirect to="/home" /> */}
           </Switch>
-            <Footer />
+            {/*<Footer />*/}
       </div>
     );
   }

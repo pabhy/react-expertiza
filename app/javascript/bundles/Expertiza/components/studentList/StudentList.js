@@ -2,6 +2,7 @@ import { Table } from 'reactstrap';
 import React, { Component } from 'react'
 import {NavLink} from 'react-router-dom'
 import { Loading } from '../UI/spinner/LoadingComponent';
+import info from 'images/info.png';
 
 class StudentList extends Component {
     constructor(props){
@@ -41,7 +42,7 @@ class StudentList extends Component {
                 
                     
                     <div>
-                        <strong>&nbsp;&nbsp;<span class="tasknum">&nbsp;{this.state.tasks_not_started == undefined ? "" : this.state.tasks_not_started.length}&nbsp;</span> Tasks not yet started<br/></strong>
+                        <strong>&nbsp;&nbsp;<span className="tasknum">&nbsp;{this.state.tasks_not_started == undefined ? "" : this.state.tasks_not_started.length}&nbsp;</span> Tasks not yet started<br/></strong>
                         {this.state.tasks_not_started == undefined ? <Loading/> : 
                             this.state.tasks_not_started.map(task =>
                                 <div><NavLink to={`/submitted_content/${task.participant.id}/edit`}>
@@ -54,7 +55,7 @@ class StudentList extends Component {
                     </div><br/>
 
                     <div>
-                        <strong>&nbsp;&nbsp;<span class="tasknum">&nbsp;0&nbsp;</span> Revisions<br/></strong>
+                        <strong>&nbsp;&nbsp;<span className="tasknum">&nbsp;0&nbsp;</span> Revisions<br/></strong>
                         {/* {this.state.taskrevisions == undefined ? <Loading/> : 
                             this.state.taskrevisions.map(revision =>
                                 <span>&nbsp; &raquo; {revision.assignment} {revision.stage}
@@ -92,7 +93,7 @@ class StudentList extends Component {
                 <div className="row">
                 <div className="col-md-12">
                     <div className="topictable">
-                        <Table className="table table-striped" cellpadding="2" >
+                        <Table className="table table-striped" cellPadding="2" >
                             
                             <thead>
                                 <tr className = "taskheader">
@@ -101,7 +102,7 @@ class StudentList extends Component {
                                 <th>Current Stage</th>
                                 <th>Review Grade</th>
                                 {this.state.hasBadges == true ? <th>Badges</th> : <th hidden></th>}
-                                <th>Stage Deadline<img src='assets/images/info.png' 
+                                <th>Stage Deadline<img src={info}
                                 title="You can change 'Prefered time Zone' in 'Profile' in the banner. " alt="img">
                                 </img></th>  
                                 {/* <th>Publishing Rights</th>                   */}

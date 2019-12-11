@@ -46,7 +46,7 @@ class Login extends Component {
     render (){
         let output =  ( <div className="container center" style= {{marginTop:'35px', marginBottom:'50px'}}>
                             <div className="row justify-content-md-center">
-                                <div className="col-md-4 col-md-offset-6">
+                                <div className="col-md-4">
                                     <div className="text-center">
                                     <h2> Welcome! </h2>
                                     </div>
@@ -61,7 +61,7 @@ class Login extends Component {
                                                     autoComplete={"on"}
                                                     />
                                             <span>
-                                                <NavLink to="/password_retrieval/forgotten" onClick={this.forgetUsernameHandler} className="pull-right"> Forgot username?</NavLink>
+                                                <NavLink to="/password_retrieval/forgot" onClick={this.forgetUsernameHandler} className="pull-right"> Forgot username?</NavLink>
                                             </span>
                                         </div>
 
@@ -75,7 +75,7 @@ class Login extends Component {
                                                     onChange={this.passwordChangeHandler}
                                                     />
                                             <span>
-                                                <NavLink to="/password_retrieval/forgotten" className="pull-right"> Forgot password?</NavLink>
+                                                <NavLink to="/password_retrieval/forgot" className="pull-right"> Forgot password?</NavLink>
                                             </span>
                                         </div>
                                         <br />

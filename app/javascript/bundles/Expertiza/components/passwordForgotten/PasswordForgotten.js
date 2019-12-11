@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect } from 'react-redux';
-import * as actions from '../../redux'
+import * as actions from '../../redux';
 
 class PasswordForgotten extends Component {
     state = {

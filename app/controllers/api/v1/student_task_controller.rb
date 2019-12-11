@@ -30,9 +30,9 @@ module Api::V1
         participant = student_task.participant
         hash = {}
         student_task.instance_variables.each {|var| hash[var.to_s] = student_task.instance_variable_get(var) }
-        if(student_task.course_name) 
-          hash['course_name'] = student_task.course_name
-        end
+        # if(student_task.course_name)
+        #   hash['course_name'] = student_task.course_name
+        # end
         topic_id = SignedUpTeam.topic_id(participant.parent_id, participant.user_id)
 
         if SignUpTopic.exists?(topic_id)

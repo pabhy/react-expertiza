@@ -2,6 +2,7 @@ import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reac
 import { NavLink } from 'react-router-dom';
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
+import logo from 'images/logo.png';
 
 class Header extends Component {
     constructor(props) {
@@ -21,7 +22,7 @@ class Header extends Component {
             <div>
                 <Navbar dark expand="md">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="ml-0" href="/"><img src='assets/images/logo.png' height="65" width="143" alt='Expertiza' /></NavbarBrand>
+                        <NavbarBrand className="ml-0" href="/"><img src={logo} height="65" width="143" alt='Expertiza' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             {this.props.loggedIn ?  <Nav navbar>
                                 <NavItem>
