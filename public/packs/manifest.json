@@ -1,16 +1,10 @@
 {
-  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.eot": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-674f50d287a8c48dc19ba404d20fe713.eot",
-  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-912ec66d7572ff821749319396470bde.svg",
-  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-b06871f281fee6b241d60582ae9369b9.ttf",
-  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2",
-  "_/_/node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "/packs/_/_/node_modules/font-awesome/fonts/fontawesome-webfont-fee66e712a8a08eef5805a46892932ad.woff",
-  "_/assets/images/logo.png": "/packs/_/assets/images/logo-7063f43a77a2e77fe2d2763e44e2c415.png",
-  "application.js": "/packs/application-bce2e79047d779994336.js",
-  "application.js.map": "/packs/application-bce2e79047d779994336.js.map",
-  "expertiza-bundle.css": "/packs/expertiza-bundle-257e1dbaafb98793f6e9a2811b83ba0e.css",
-  "expertiza-bundle.css.map": "/packs/expertiza-bundle-257e1dbaafb98793f6e9a2811b83ba0e.css.map",
-  "expertiza-bundle.js": "/packs/expertiza-bundle-ee5ff05daaba7922cfb1.js",
-  "expertiza-bundle.js.map": "/packs/expertiza-bundle-ee5ff05daaba7922cfb1.js.map",
-  "hello_react.js": "/packs/hello_react-034654043ee9e09fc944.js",
-  "hello_react.js.map": "/packs/hello_react-034654043ee9e09fc944.js.map"
+  "application.js": "/packs/application-4da9beed4cc3382a14b3.js",
+  "application.js.map": "/packs/application-4da9beed4cc3382a14b3.js.map",
+  "expertiza-bundle.css": "/packs/expertiza-bundle-3893e322621ec8ea68b830af67a956b4.css",
+  "expertiza-bundle.css.map": "/packs/expertiza-bundle-3893e322621ec8ea68b830af67a956b4.css.map",
+  "expertiza-bundle.js": "/packs/expertiza-bundle-44b8711fb3f4161bade0.js",
+  "expertiza-bundle.js.map": "/packs/expertiza-bundle-44b8711fb3f4161bade0.js.map",
+  "hello_react.js": "/packs/hello_react-5b7b6987cafafb6e0bde.js",
+  "hello_react.js.map": "/packs/hello_react-5b7b6987cafafb6e0bde.js.map"
 }
